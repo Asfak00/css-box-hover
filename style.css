@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    margin: 8em auto;
+    justify-content: center;
+}
+
+.box {
+    width: 20%;
+    height: 300px;
+    margin: auto 1em;
+    transition: 1s;
+}
+
+.box1 {
+    background-image: url(./font.jpg);
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(./IMG_20220108_154643_328.jpg);
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(./IMG_20220108_155040_865.jpg);
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(./IMG_20220108_160035_561.jpg);
+    background-size: cover;
+}
+
+.box:hover {
+    transform: scale(1.3);
+}
